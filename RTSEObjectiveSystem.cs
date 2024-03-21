@@ -1,24 +1,15 @@
-using HeathenEngineering.UX;
 using RTSEngine.BuildingExtension;
 using RTSEngine.Faction;
 using RTSEngine.Game;
 using RTSEngine.Selection;
 using RTSEngine.UnitExtension;
 using RTSEngine.Entities;
-using RTSEngine.EntityComponent;
 using System;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.AI;
-using UnityEngine.UI;
 using RTSEngine.Event;
 using TMPro;
 using System.Collections;
-using RTSEngine;
-using RTSEngine.NPC;
-
-using System.Linq;
 using RTSEngine.Cameras;
 
 
