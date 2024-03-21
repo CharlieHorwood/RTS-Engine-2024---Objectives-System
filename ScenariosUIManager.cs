@@ -46,7 +46,7 @@ public class ScenariosUIManager : MonoBehaviour
             foreach(ScenarioUI scenario in this.ScenarioUI)
             {
                 counter++;
-                GameObject ScenarioItemNew = GameObject.Instantiate(this.ScenarioItemPrefab,this.ScenariosContainer.transform);
+                GameObject ScenarioItemNew = Instantiate(this.ScenarioItemPrefab,this.ScenariosContainer.transform);
                 if(ScenarioItemNew != null)
                 {
                     if(ScenarioItemNew.TryGetComponent<ScenarioItem>(out var item))
